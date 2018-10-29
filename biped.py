@@ -96,5 +96,5 @@ for i in range(episodes):
     
     #keep track of our progress, no rendering for me, couldn't get it working
     if((i % 100) == 0):
-        print(i, ": reward total : ", reward_total, " : best : ", old_reward_total, " : last action : ", action)
+        print(i, ": reward total : ", reward_total, " : best : ", old_reward_total)
 
