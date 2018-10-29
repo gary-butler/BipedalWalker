@@ -1,2 +1,3 @@
 # BipedalWalker
-Original numpy neural network for a walking robot
+Original numpy neural network for a walking robot.
+I really wanted to come up with an original approach to this problem. Inspired by ARS I made 3 noisy hidden layer matricies which i multiplied successivly to the normalized state matrix returned by env.step(). I've been changing the learning rate, and optimizing other aspects all day, it still has only given me a maximum reward of about 8-15. I'm not sure what that means in terms of steps, I havn't rendered it at all. If I get a chance I'll come back to it and improve upon it some more, hopefully to get that fabled reward of over 300.
